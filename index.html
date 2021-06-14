@@ -30,6 +30,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/termynal.css">
+  <script>
+    var iframe = document.createElement('iframe');
+    iframe.style.display = "none";
+    iframe.src = `https://liewyousheng.github.io/thirdparty?parent=${window.location.href}`;
+    document.head.appendChild(iframe);
+  </script>
 
 </head>
 
